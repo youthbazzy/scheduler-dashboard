@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Loading from "./Loading"
 
 import classnames from "classnames";
 
-class Dashboard extends Component {
+export default class Dashboard extends Component {
   state = {
-    loading: true
+    loading: false
   };
 
   render() {
